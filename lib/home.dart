@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practica/lista.dart';
+import 'package:practica/ejemplo.dart';
 
 import 'colores-app.dart';
 
@@ -22,12 +22,9 @@ class Home extends StatelessWidget {
                 SizedBox(
                   height: 15,
                 ),
-                Container(
-                  padding: EdgeInsets.all(5),
-                  height: 900,
-                  child: Lista(
-                  ),
-                ),
+                muestra(context, 'Hola', 'assets/img1.jpg', 'como estas?', '/mostrar'),
+                muestra(context, 'Hola', 'assets/img1.jpg', 'como estas?', '/mostrar'),
+                muestra(context, 'Hola', 'assets/img1.jpg', 'como estas?', '/mostrar')
               ],
             ),
           ),
